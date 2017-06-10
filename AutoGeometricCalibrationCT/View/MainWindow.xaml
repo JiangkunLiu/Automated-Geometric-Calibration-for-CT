@@ -1,0 +1,16 @@
+﻿<Window x:Class="AutoGeometricCalibrationCT.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoGeometricCalibrationCT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <Button Content="Start" Command="{Binding StartCommand}" Height="37" VerticalAlignment="Top" Margin="210,118,217,0"/>
+            <Button Content="Open" Command="{Binding OpenCommand}" Margin="219,49,230,238"/>
+            <Button Content="Cancel" Command="{Binding CancelCommand}" Margin="219,191,230,96"/>
+        </Grid>
+    </Grid>
+</Window>
